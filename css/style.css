@@ -1,0 +1,40 @@
+.sezionefissa{
+margin-top: -10px;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background-color:grey;
+  padding-bottom: 100px;
+}
+.sottofisso{
+
+  height:200px;
+  width: 100%;
+  background-color: white;
+}
+.sfondorosa{
+  height: 600px;
+  width: 100%;
+background-image: url(../immagini/sfondo.jpg);
+background-size: cover;
+}
+.sfondogrigio{
+  height: 1200px;
+  width: auto;
+  background-color: grey;
+}
+.sfondocambia{
+  height:1000px;
+  width:auto;
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5)
+}
+.sfondobianco{
+  height: 1000px;
+  width: auto;
+  background-color: white;
+}
+.footer{
+  height: 1000px;
+  width: auto;
+  background-color: #33475b;
+}
