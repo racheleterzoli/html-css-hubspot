@@ -277,3 +277,34 @@ float: left;
   width:350px;
   float: right;
 }
+.ominotesto{
+  margin-top: 75px;
+  margin-left: 150px;
+  width: 450px;
+}
+#bottomino{
+  margin-top: 25px;
+  height: 50px;
+  width: 150px;
+}
+.parte1{
+  margin-top: 50px;
+  margin-left:150px;
+  float: left;
+  height:100%;
+  width: 250px;
+
+}
+.parte2{
+  margin-left:300px;
+  display: inline-block;
+  float: left;
+  width:650px;
+}
+.logo{
+  margin-top: 50px;
+  margin-bottom: -30px;
+  padding:30px;
+  height:30px;
+  width:90px;
+}
