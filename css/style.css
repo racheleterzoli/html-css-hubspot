@@ -1,10 +1,49 @@
+body{
+  margin-left: 0px;
+  margin-left: 0px;
+    width: 1520px;
+}
+.tutto{
+  padding-top: 145px;
+}
+button{
+  background-color: #ff7a59;
+  text-align: center;
+  height: 65px;
+  width: 170px;
+border-radius: .1875rem;
+transition: 0.3s;
+border: none;
+color:white;
+}
+.tasto{
+  width: 170px;
+}
+.bottonescritta{
+padding-top: 50px;
+  margin-left: 200px;
+  height: 100%;
+  width: 400px;
+}
+.bottonescritta h1 {
+  color:rgb(66, 91, 118);
+  font-size: 50px;
+}
+.bottonescritta p{
+  color:rgb(66, 91, 118);
+  font-size: 20px;
+}
+#testino{
+  font-size: 15px;
+}
 .sezionefissa{
 margin-top: -10px;
   position: fixed;
-  height: 30px;
-  width: 100%;
-  background-color:grey;
+  height: 20px;
+  width: 1520px;
+  background-color:#E5E5E5;
   padding-bottom: 100px;
+  border-bottom: 1px solid black;
 }
 .sottofisso{
 
@@ -17,11 +56,14 @@ margin-top: -10px;
   width: 100%;
 background-image: url(../immagini/sfondo.jpg);
 background-size: cover;
+border-bottom: 1px solid black;
 }
 .sfondogrigio{
+
+
   height: 1200px;
   width: auto;
-  background-color: grey;
+background-color:#E5E5E5;
 }
 .sfondocambia{
   height:1000px;
@@ -37,4 +79,19 @@ background-size: cover;
   height: 1000px;
   width: auto;
   background-color: #33475b;
+}
+#nove{
+  margin-left: 200px;
+  margin-bottom: 20px;
+height: 32px;
+}
+#quattordici{
+  height:200px;
+  margin-left: 700px;
+  margin-top: 80px;
+}
+.testosfgrigio{
+  width: 700px;
+text-align: center;
+margin-left: 420px;
 }
