@@ -336,7 +336,7 @@ float: left;
  width: 130px;
 }
 .footer1{
-  height: 800px;
+  height: 650px;
   width: auto;
 }
 .footerino{
@@ -345,7 +345,7 @@ float: left;
   float: left;
   width: 17%;
   height: 80%;
-  border: 1px solid white;
+
 }
 .init{
   margin-left: 202px;
@@ -353,7 +353,7 @@ float: left;
 .footerinofondo{
   margin-left: 380px;
   margin-top: 50px;
-  border: 1px solid white;
+
   width:50%;
   height: 100px;
 }
