@@ -83,6 +83,7 @@ background-color:#E5E5E5;
   background-color: #33475b;
 }
 #nove{
+  float: left;
   margin-left: 200px;
   margin-bottom: 20px;
 height: 32px;
@@ -107,6 +108,7 @@ margin-left: 420px;
   width: 50px;
 }
 #inglese{
+  float: left;
   margin-top: 37px;
   font-size: 18px;
 
@@ -114,7 +116,7 @@ margin-left: 420px;
 
 .biancogrande{
   background-color: white;
-  height: 250px;
+  height: 300px;
   width: 80%;
   margin-left:10%;
   margin-right: 10%;
@@ -136,4 +138,72 @@ margin-right: 5.5%;
 }
 .bianco3{
   margin-right: 10%;
+}
+#contatti{
+  float: left;
+  margin-top: -24px;
+  margin-left: 70px;
+  font-size: 18px;
+}
+.vl {
+  margin-top: 30px;
+  margin-left: 350px;
+  border-left: 2px solid rgb(66, 91, 118) ;
+  height: 30px;
+}
+#button1{
+  margin-top:-50px;
+  margin-left: 550px;
+  color:#ff7a59;
+  background-color: white;
+  border: 1px solid #ff7a59;
+  height: 50px;
+  width: 100px;
+}
+#button2{
+  height: 50px;
+  width: 150px;
+}
+.bottoni{
+  height: 5px;
+  width: 1520px;
+}
+.topnav{
+  padding-left: 50px;
+  list-style-type: square;
+        list-style: none;
+
+
+}
+ul#tendina li{
+  display: inline;
+  margin-left: 30px;
+
+}
+ul {
+  list-style-type: square;
+        list-style: none;
+  margin left:150px;
+
+}
+#undici{
+
+  height: 180px;
+  width: 180px;
+  margin-left: 70px;
+}
+#pulsante{
+  margin-left: -150px;
+  height: 50px;
+  width:120px;
+}
+.prova{
+  float: left;
+}
+.colore{
+  color:rgb(66, 91, 118) ;
+}
+.classcolor{
+  display: inline;
+  width: 920px;
 }
