@@ -262,7 +262,18 @@ float: left;
   text-align: center;
 }
 .numero{
+ font-size: 65px;
+}
+.primaparte{
 
+  width: 100%;
+  height: 300px;
 
-  font-size: 65px;
+}
+.omino{
+  margin-top: 100px;
+  margin-right: 150px;
+  height: 450px;
+  width:350px;
+  float: right;
 }
