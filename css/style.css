@@ -1,11 +1,12 @@
 body{
   margin-left: 0px;
   margin-left: 0px;
-    width: 1520px;
+    width: 100%;
     color:rgb(66, 91, 118);
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .tutto{
-  padding-top: 145px;
+  padding-top: 90px;
 }
 button{
   background-color: #ff7a59;
@@ -38,21 +39,19 @@ padding-top: 50px;
   font-size: 15px;
 }
 .sezionefissa{
-margin-top: -10px;
+  top:0;
   position: fixed;
-  height: 5px;
   width: 1520px;
   background-color:#E5E5E5;
-  padding-bottom: 100px;
+
   border-bottom: 1px solid black;
   color:rgb(66, 91, 118);
 
 }
 .sottofisso{
-
-  height:200px;
   width: 100%;
   background-color: white;
+  height: 150px;
 }
 .sfondorosa{
   height: 600px;
@@ -79,7 +78,7 @@ background-color:#E5E5E5;
   width: auto;
   background-color: white;
 }
-.footer{
+footer{
   height: 1000px;
   width: auto;
   background-color: #33475b;
@@ -88,7 +87,10 @@ background-color:#E5E5E5;
   float: left;
   margin-left: 200px;
   margin-bottom: 20px;
-height: 32px;
+
+}
+#nove img{
+  height: 32px;
 }
 #quattordici{
   height:200px;
@@ -111,14 +113,16 @@ margin-left: 420px;
 }
 #inglese{
   float: left;
-  margin-top: 37px;
-  font-size: 18px;
+margin-top: 34px;
+font-size: 18px;
+border-right: 2px solid rgb(66, 91, 118);
+padding-right: 20px;
 
 }
 
 .biancogrande{
   background-color: white;
-  height: 300px;
+  height: 320px;
   width: 80%;
   margin-left:10%;
   margin-right: 10%;
@@ -144,9 +148,10 @@ margin-right: 5.5%;
 }
 #contatti{
   float: left;
-  margin-top: -24px;
-  margin-left: 70px;
-  font-size: 18px;
+      margin-left: 70px;
+      font-size: 18px;
+      margin-bottom: 0;
+      margin-top: 34px;
 }
 .vl {
   margin-top: 30px;
@@ -155,32 +160,43 @@ margin-right: 5.5%;
   height: 30px;
 }
 #button1{
-  margin-top:-50px;
-  margin-left: 550px;
   color:#ff7a59;
   background-color: white;
   border: 1px solid #ff7a59;
   height: 50px;
   width: 100px;
+  margin-right: 15px;
 }
 #button2{
   height: 50px;
   width: 150px;
 }
+.fa-search{
+  padding-right: 15px;
+}
 .bottoni{
-  height: 5px;
-  width: 1520px;
+  float: right;
+    margin-right: 200px;
+    margin-top: 13px;
 }
 .topnav{
   padding-left: 50px;
   list-style-type: square;
-        list-style: none;
+  list-style: none;
+  float: right;
+  margin-right: 200px;
 
 
 }
 ul#tendina li{
   display: inline;
   margin-left: 30px;
+
+}
+ul#tendina li a{
+ color:#33475b;
+
+    text-decoration: unset;
 
 }
 ul {
@@ -192,23 +208,24 @@ ul {
 #undici{
 
   height: 180px;
-  width: 180px;
-  margin-left: 70px;
+    width: 180px;
+    margin: 30px 24%;
 }
 #pulsante{
-  margin-left: -150px;
   height: 50px;
-  width:120px;
+width: 120px;
+margin: 0px 32%;
 }
 .prova{
   float: left;
+      width: 30%;
 }
 .colore{
   color:rgb(66, 91, 118) ;
 }
 .classcolor{
-  display: inline;
-  width: 920px;
+  float: left;
+      width: 70%;
 }
 .tredici{
 
@@ -228,14 +245,23 @@ hr{
 }
 .sfondocambia h1{
   color:white;
+  margin-top: unset;
+padding-top: 30px;
+
 }
 .dimensionitesto{
-  padding-left: 300px;
+  margin: auto;
   text-align: center;
-  width:700px;
+  width: 700px;
 }
 .sfondocambia p{
   color:white;
+}
+ul.lista li{
+  display: inline;
+}
+.lista{
+  padding-left: 0px;
 }
 .blocco{
 float: left;
@@ -256,22 +282,24 @@ float: left;
   border-right: 0px;
 }
 .imgblock{
-
-  padding: 25%;
-  padding-top: 0%;
   text-align: center;
 }
 .numero{
  font-size: 65px;
+ margin:0;
+ text-align: center;
+}
+.dimpic{
+  text-align: center;
 }
 .primaparte{
 
-  width: 100%;
-  height: 300px;
+  width: 80%;
+      height: 300px;
+      margin: auto;
 
 }
 .omino{
-  margin-top: 100px;
   margin-right: 150px;
   height: 450px;
   width:350px;
@@ -289,22 +317,50 @@ float: left;
 }
 .parte1{
   margin-top: 50px;
-  margin-left:150px;
-  float: left;
-  height:100%;
-  width: 250px;
+
+    float: left;
+    height: 100%;
+    width: 30%;
 
 }
 .parte2{
-  margin-left:300px;
   display: inline-block;
-  float: left;
-  width:650px;
+      float: left;
+      width: 70%;
 }
 .logo{
   margin-top: 50px;
   margin-bottom: -30px;
   padding:30px;
   height:30px;
-  width:90px;
+ width: 130px;
+}
+.footer1{
+  height: 800px;
+  width: auto;
+}
+.footerino{
+  margin-top: 90px;
+  margin-left: 20px;
+  float: left;
+  width: 17%;
+  height: 80%;
+  border: 1px solid white;
+}
+.init{
+  margin-left: 202px;
+}
+.footerinofondo{
+  margin-left: 380px;
+  margin-top: 50px;
+  border: 1px solid white;
+  width:50%;
+  height: 100px;
+}
+footer{
+  color:white;
+}
+.bottobianco{
+  background-color: white;
+
 }
