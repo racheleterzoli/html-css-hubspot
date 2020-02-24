@@ -39,11 +39,13 @@ padding-top: 50px;
 .sezionefissa{
 margin-top: -10px;
   position: fixed;
-  height: 20px;
+  height: 5px;
   width: 1520px;
   background-color:#E5E5E5;
   padding-bottom: 100px;
   border-bottom: 1px solid black;
+  color:rgb(66, 91, 118);
+
 }
 .sottofisso{
 
@@ -61,7 +63,7 @@ border-bottom: 1px solid black;
 .sfondogrigio{
 
 
-  height: 1200px;
+  height: 1700px;
   width: auto;
 background-color:#E5E5E5;
 }
@@ -91,7 +93,47 @@ height: 32px;
   margin-top: 80px;
 }
 .testosfgrigio{
+  color:rgb(66, 91, 118);
   width: 700px;
 text-align: center;
 margin-left: 420px;
+}
+#mappamondo
+{
+  float: left;
+  margin-left: 200px;
+  margin-top: 30px;
+  height: 30px;
+  width: 50px;
+}
+#inglese{
+  margin-top: 37px;
+  font-size: 18px;
+
+}
+
+.biancogrande{
+  background-color: white;
+  height: 250px;
+  width: 80%;
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 80px;
+}
+.biancopiccolo{
+  float: left;
+  margin-top: 50px;
+  height: 550px;
+  width: 23%;
+  background-color: white;
+}
+.bianco1{
+  margin-left: 10%;
+}
+.bianco2{
+  margin-left: 5.5%;
+margin-right: 5.5%;
+}
+.bianco3{
+  margin-right: 10%;
 }
